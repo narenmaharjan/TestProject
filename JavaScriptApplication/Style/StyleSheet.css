@@ -1,0 +1,16 @@
+﻿body {
+}
+
+header {
+    background-color: #C0C0C0;
+    width: 844px;
+    height: 86px;
+}
+
+.h1Style {
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+.introduction {
+    color: #467ace;
+}

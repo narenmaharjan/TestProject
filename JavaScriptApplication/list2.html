@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Display times and dates</title>
+</head>
+<body>
+    <h1> Current Date and Time</h1>
+    <p>
+    <script type="text/javascript" >
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toGMTString();
+        document.write("<b>Local time:</b>" + localtime + "<br>");
+        document.write("<b>UTC time:</b>" + utctime);
+
+       
+    </script>
+        </p>
+
+   <form name="form1" action="" method="post">
+       <b>Name :</b><input type="text" size="30" name="yourname" />
+        <br />
+        <b>Address :</b><input type="text" size="15" name="address" />
+        <br />
+        <b>Phone :</b><input type="text" size="15" name="phone" />
+        <br />
+        <input type="submit" value="Submit" />
+    
+   </form>
+        
+</body>
+</html>
